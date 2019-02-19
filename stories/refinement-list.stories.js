@@ -79,7 +79,7 @@ storiesOf('RefinementList', module)
     })
   )
   .add(
-    'with show more and search',
+    'with search and show more',
     withHits(({ search, container, instantsearch }) => {
       search.addWidget(
         instantsearch.widgets.refinementList({
